@@ -4,6 +4,7 @@ import reactImage from "../Images/react.png";
 import jsImage from "../Images/js.png";
 import firebaseImage from "../Images/firebase.jpg";
 import profileImage from "../Images/sibainu.jpg";
+import typescriptImage from "../Images/TypeScript.png";
 
 export const HomePage = () => {
   return (
@@ -71,22 +72,22 @@ export const HomePage = () => {
           <h1 class="title">スキル</h1>
           <div class="row text-center">
             <div class="col-md-4 services">
+              <img src={typescriptImage} />
+              <h4>TypeScript/JavaScript/Python</h4>
+              <p>TypeScript/JavaScript/Pythonがつかえます</p>
+            </div>
+            <div class="col-md-4 services">
               <img src={reactImage} />
               <h4>React</h4>
               <p>Reactがつかえます</p>
             </div>
             <div class="col-md-4 services">
               <img src={jsImage} />
-              <h4>HTML/CSS</h4>
-              <p>HTML/CSSがつかえます</p>
-            </div>
-            <div class="col-md-4 services">
-              <img src={firebaseImage} />
-              <h4>Firebase</h4>
-              <p>Firebaseがつかえます</p>
+              <h4>GraphQL/fastAPI/Django</h4>
+              <p>GraphQL/fastAPI/Djangoがつかえます</p>
             </div>
           </div>
-          <button type="button" class="btn btn-primary">
+          <button src="/skill" type="button" class="btn btn-primary">
             スキル一覧
           </button>
         </div>
