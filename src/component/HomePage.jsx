@@ -9,13 +9,14 @@ import typescriptImage from "../Images/TypeScript.png";
 export const HomePage = () => {
   return (
     <div className="container text-center">
-      <h1>Shin Code</h1>
+      <h1>赤坂匠のポートフォリオ</h1>
 
       <img src={profileImage} className="profileImage" />
 
       <p>
-        ShinCodeです。普段は個人でWeb系の情報発信をYoutubeやTwitterにて行っています。主にHTML/CSS/Javascript/Reactメインに取り扱っています。趣味は個人でプログラミングの撮影を行うことです。
-        ShinCodeです。普段は個人でWeb系の情報発信をYoutubeやTwitterにて行っています。主にHTML/CSS/Javascript/Reactメインに取り扱っています。趣味は個人でプログラミングの撮影を行うことです。
+        青山学院大学陸上競技部長距離ブロック、駅伝部に所属しています。
+        大学生になって、陸上を怪我で引退し、マネージャーとして部活動を続けながら、
+        プログラミングの勉強を日々しています。 得意言語は、TypeScriptです
       </p>
 
       <section class="page-section" id="services">
