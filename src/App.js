@@ -1,5 +1,5 @@
 import "./App.css";
-import { BlogPage } from "./component/BlogPage";
+import { MyPage } from "./component/MyPage";
 import { Header } from "./component/Header";
 import { HomePage } from "./component/HomePage";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
@@ -14,7 +14,7 @@ function App() {
 
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/blog" element={<BlogPage />} />
+          <Route path="/aboutMe" element={<MyPage />} />
           <Route path="/skills" element={<AllSkill />} />
           <Route path="/contact" element={<Sns />} />
         </Routes>

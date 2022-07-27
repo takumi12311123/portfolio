@@ -3,7 +3,7 @@ import { Button } from "react-bootstrap";
 import reactImage from "../Images/react.png";
 import jsImage from "../Images/js.png";
 import firebaseImage from "../Images/firebase.jpg";
-import profileImage from "../Images/sibainu.jpg";
+import profileImage from "../Images/mypic.jpg";
 import typescriptImage from "../Images/TypeScript.png";
 import graphqlImage from "../Images/graphql.png";
 import { Link } from "react-router-dom";
