@@ -1,18 +1,15 @@
 import React from "react";
-import { Button } from "react-bootstrap";
-import reactImage from "../Images/react.png";
-import jsImage from "../Images/js.png";
-import firebaseImage from "../Images/firebase.jpg";
-import profileImage from "../Images/mypic.jpg";
-import typescriptImage from "../Images/TypeScript.png";
-import graphqlImage from "../Images/graphql.png";
 import { Link } from "react-router-dom";
+import graphqlImage from "../Images/graphql.png";
+import profileImage from "../Images/mypic.jpg";
+import reactImage from "../Images/react.png";
+import typescriptImage from "../Images/TypeScript.png";
 
 export const HomePage = () => {
   return (
     <div className="container text-center">
       <h1>赤坂匠のポートフォリオ</h1>
-      <img src={profileImage} className="profileImage" />
+      <img src={profileImage} className="profileImage" alt="" />
       <p>青山学院大学陸上競技部長距離ブロック、駅伝部に所属しています。</p>
       <p>
         大学生になって、陸上を怪我で引退し、マネージャーとして部活動を続けながら、
@@ -49,19 +46,19 @@ export const HomePage = () => {
           <h1 class="title">スキル</h1>
           <div class="row text-center">
             <div class="col-md-4 services">
-              <img src={typescriptImage} />
+              <img src={typescriptImage} alt="" />
               <h4>TypeScript/JavaScript/Python</h4>
               <p>TypeScript/JavaScript/Pythonがつかえます</p>
             </div>
             <div class="col-md-4 services">
-              <img src={reactImage} />
+              <img src={reactImage} alt="" />
               <h4>React</h4>
               <p>Reactがつかえます</p>
             </div>
             <div class="col-md-4 services">
-              <img src={graphqlImage} />
+              <img src={graphqlImage} alt="" />
               <h4>GraphQL/fastAPI/Django</h4>
-              <p>GraphQL/fastAPI/Djangoがつかえます</p>
+              <p>GraphQL/fastAPI/Django/awsがつかえます</p>
             </div>
           </div>
           <Link to={`/skills`}>
