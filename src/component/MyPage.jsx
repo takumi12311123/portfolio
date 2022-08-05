@@ -9,6 +9,7 @@ export const MyPage = () => {
         src={profileImage}
         style={{ textAlign: "left" }}
         className="profileImage"
+        alt=""
       />
       <h1>経歴</h1>
       <h3>2001.12.31誕生</h3>
